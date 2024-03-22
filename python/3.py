@@ -5,6 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    clock = int(input())
+
+    if clock < 12:
+        print("AM", end='')
+    else:
+        print("PM", end='')
 
     return
 

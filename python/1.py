@@ -5,6 +5,13 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    num = int(input())
+
+    reversed_num = str(num)[::-1]
+
+    num = int(reversed_num)
+
+    print(num, end='')
 
     return
 

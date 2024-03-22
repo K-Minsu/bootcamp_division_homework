@@ -5,6 +5,21 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    year = int(input())
+    month = int(input())
+    
+    my_thrityone = [1, 3, 5, 7, 8, 10, 12]
+
+    if month == 2:
+        if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+            print(29, end='')
+        else:
+            print(28, end='')
+    else:
+        if month in my_thrityone:
+            print(31, end='')
+        else:
+            print(30, end='')
 
     return
 

@@ -5,6 +5,14 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    alpha = input()
+
+    my_string = ['a', 'e', 'i', 'o', 'u']
+
+    if alpha in my_string:
+        print("O", end='')
+    else:
+        print("X", end='')
 
     return
 

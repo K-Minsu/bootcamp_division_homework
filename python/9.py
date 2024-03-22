@@ -5,6 +5,19 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    while(True):
+        n = int(input())
+
+        if n > 0:
+            total = 0
+            for i in range(1, n + 1):
+                total += i
+
+            print(total, end='')
+
+            break
+        else:
+            print("X")
 
     return
 

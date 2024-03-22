@@ -5,6 +5,18 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    n = int(input())
+
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+
+    factorial = 1
+    for i in range(2, n + 1):
+        factorial *= i
+
+    print(total)
+    print(factorial, end='')
 
     return
 
