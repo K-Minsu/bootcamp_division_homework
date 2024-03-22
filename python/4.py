@@ -18,6 +18,8 @@ def main():
     else:
         print("F", end='')
 
+        
+
     return
 
 
